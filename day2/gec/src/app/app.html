@@ -1,0 +1,16 @@
+<app-header></app-header>
+<app-header></app-header>
+<app-header></app-header>
+<app-header></app-header>
+
+<button type="button" class="btn btn-primary"  (click)="listner()">Primary</button>
+
+<p *ngIf="visiblity">welcome {{name}}</p>
+
+<ul>
+    <li *ngFor="let item of list">
+        {{item}}
+    </li>
+</ul>
+
+<router-outlet></router-outlet>
