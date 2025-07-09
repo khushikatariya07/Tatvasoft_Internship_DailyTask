@@ -1,5 +1,7 @@
-﻿using Mission.Entities.ViewModels;
+﻿using System.ComponentModel.DataAnnotations;
+using Mission.Entities.ViewModels;
 using Mission.Entities.ViewModels.Login;
+using Mission.Entities.ViewModels.User;
 using Mission.Repositories.IRepository;
 using Mission.Services.IService;
 
@@ -10,13 +12,26 @@ namespace Mission.Services.Service
         private readonly IUserRepository _userRepository = userRepository;
         private readonly JwtService _jwtService = jwtService;
 
+        public async Task<List<UserResponseModel>> GetUsersAsync()
+        {
+            return await _userRepository.GetUsersAsync();
+        }
+
+       
+
+        
+
+       
+
+       
+
         public async Task<ResponseResult> LogiUser(UserLoginRequestModel model)
         {
             var (response, message) = await _userRepository.LogiUser(model);
 
             var result = new ResponseResult()
             {
-                Message = message
+                Message = (string)message
             };
 
             if (response == null)
@@ -25,7 +40,7 @@ namespace Mission.Services.Service
             }
             else
             {
-                result.Data = _jwtService.GenerateJwtToken(response);
+                result.Data = _jwtService.GenerateJwtToken((UserLoginResponseModel)response);
                 result.Result = ResponseStatus.Success;
             }
 

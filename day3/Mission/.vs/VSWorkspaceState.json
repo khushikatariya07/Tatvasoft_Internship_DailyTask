@@ -4,7 +4,9 @@
     "\\Mission.Api",
     "\\Mission.Api\\Controllers",
     "\\Mission.Entities",
-    "\\Mission.Entities\\Models"
+    "\\Mission.Entities\\Models",
+    "\\Mission.Services",
+    "\\Mission.Services\\Service"
   ],
   "SelectedNode": "\\Mission.sln",
   "PreviewInSolutionExplorer": false

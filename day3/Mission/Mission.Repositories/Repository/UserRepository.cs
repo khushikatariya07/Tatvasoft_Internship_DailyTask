@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Mission.Entities;
+using Mission.Entities.Models;
 using Mission.Entities.ViewModels.Login;
+using Mission.Entities.ViewModels.User;
 using Mission.Repositories.IRepository;
 
 namespace Mission.Repositories.Repository
@@ -36,5 +38,25 @@ namespace Mission.Repositories.Repository
 
             return (response, "Login Successfully");
         }
+
+        public async Task<List<UserResponseModel>> GetUsersAsync()
+        {
+            return await _context.Users.Select(u => new UserResponseModel()
+            {
+                Id = u.Id,
+                EmailAddress = u.EmailAddress,
+                FirstName = u.FirstName,
+                LastName = u.LastName,
+                PhoneNumber = u.PhoneNumber,
+                UserType = u.UserType,
+                ProfileImage = u.UserImage,
+            }).ToListAsync();
+        }
+
+     
+
+       
+      
+
     }
 }
