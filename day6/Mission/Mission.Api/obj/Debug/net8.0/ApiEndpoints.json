@@ -138,6 +138,80 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Mission.Api.Controllers.MissionThemeController",
+    "Method": "AddMissionTheme",
+    "RelativePath": "api/MissionTheme/AddMissionTheme",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Mission.Entities.ViewModels.MissionTheme.UpsertMissionThemeRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mission.Api.Controllers.MissionThemeController",
+    "Method": "DeleteMissionTheme",
+    "RelativePath": "api/MissionTheme/DeleteMissionTheme/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mission.Api.Controllers.MissionThemeController",
+    "Method": "GetMissionThemeById",
+    "RelativePath": "api/MissionTheme/GetMissionThemeById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mission.Api.Controllers.MissionThemeController",
+    "Method": "GetMissionThemeList",
+    "RelativePath": "api/MissionTheme/GetMissionThemeList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mission.Api.Controllers.MissionThemeController",
+    "Method": "UpdateMissionTheme",
+    "RelativePath": "api/MissionTheme/UpdateMissionTheme",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Mission.Entities.ViewModels.MissionTheme.UpsertMissionThemeRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Mission.Api.Controllers.UserController",
     "Method": "DeleteUser",
     "RelativePath": "api/User/DeleteUser/{userId}",

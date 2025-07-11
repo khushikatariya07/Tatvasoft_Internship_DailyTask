@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day5\\Mission\\Mission.Services\\Mission.Services.csproj": {}
+    "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day6\\Mission\\Mission.Services\\Mission.Services.csproj": {}
   },
   "projects": {
-    "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day5\\Mission\\Mission.Entities\\Mission.Entities.csproj": {
+    "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day6\\Mission\\Mission.Entities\\Mission.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day5\\Mission\\Mission.Entities\\Mission.Entities.csproj",
+        "projectUniqueName": "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day6\\Mission\\Mission.Entities\\Mission.Entities.csproj",
         "projectName": "Mission.Entities",
-        "projectPath": "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day5\\Mission\\Mission.Entities\\Mission.Entities.csproj",
+        "projectPath": "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day6\\Mission\\Mission.Entities\\Mission.Entities.csproj",
         "packagesPath": "C:\\Users\\HELLO\\.nuget\\packages\\",
-        "outputPath": "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day5\\Mission\\Mission.Entities\\obj\\",
+        "outputPath": "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day6\\Mission\\Mission.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\Microsoft_visual_studio_shared\\NuGetPackages"
@@ -79,14 +79,14 @@
         }
       }
     },
-    "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day5\\Mission\\Mission.Repositories\\Mission.Repositories.csproj": {
+    "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day6\\Mission\\Mission.Repositories\\Mission.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day5\\Mission\\Mission.Repositories\\Mission.Repositories.csproj",
+        "projectUniqueName": "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day6\\Mission\\Mission.Repositories\\Mission.Repositories.csproj",
         "projectName": "Mission.Repositories",
-        "projectPath": "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day5\\Mission\\Mission.Repositories\\Mission.Repositories.csproj",
+        "projectPath": "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day6\\Mission\\Mission.Repositories\\Mission.Repositories.csproj",
         "packagesPath": "C:\\Users\\HELLO\\.nuget\\packages\\",
-        "outputPath": "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day5\\Mission\\Mission.Repositories\\obj\\",
+        "outputPath": "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day6\\Mission\\Mission.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\Microsoft_visual_studio_shared\\NuGetPackages"
@@ -107,8 +107,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day5\\Mission\\Mission.Entities\\Mission.Entities.csproj": {
-                "projectPath": "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day5\\Mission\\Mission.Entities\\Mission.Entities.csproj"
+              "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day6\\Mission\\Mission.Entities\\Mission.Entities.csproj": {
+                "projectPath": "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day6\\Mission\\Mission.Entities\\Mission.Entities.csproj"
               }
             }
           }
@@ -148,14 +148,14 @@
         }
       }
     },
-    "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day5\\Mission\\Mission.Services\\Mission.Services.csproj": {
+    "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day6\\Mission\\Mission.Services\\Mission.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day5\\Mission\\Mission.Services\\Mission.Services.csproj",
+        "projectUniqueName": "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day6\\Mission\\Mission.Services\\Mission.Services.csproj",
         "projectName": "Mission.Services",
-        "projectPath": "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day5\\Mission\\Mission.Services\\Mission.Services.csproj",
+        "projectPath": "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day6\\Mission\\Mission.Services\\Mission.Services.csproj",
         "packagesPath": "C:\\Users\\HELLO\\.nuget\\packages\\",
-        "outputPath": "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day5\\Mission\\Mission.Services\\obj\\",
+        "outputPath": "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day6\\Mission\\Mission.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\Microsoft_visual_studio_shared\\NuGetPackages"
@@ -176,8 +176,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day5\\Mission\\Mission.Repositories\\Mission.Repositories.csproj": {
-                "projectPath": "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day5\\Mission\\Mission.Repositories\\Mission.Repositories.csproj"
+              "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day6\\Mission\\Mission.Repositories\\Mission.Repositories.csproj": {
+                "projectPath": "F:\\Tatvasoft_Internship\\Tatvasoft_Internship_DailyTask\\day6\\Mission\\Mission.Repositories\\Mission.Repositories.csproj"
               }
             }
           }
