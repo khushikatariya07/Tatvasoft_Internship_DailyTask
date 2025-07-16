@@ -70,8 +70,22 @@ export class AddMissionComponent implements OnInit, OnDestroy {
       missionSkillId: [null, Validators.compose([Validators.required])],
       missionImages: [null, Validators.compose([Validators.required])],
       totalSeats: [null, Validators.compose([Validators.required])],
-    });
+    }, {
+    validators: this.startDateBeforeEndDateValidator // ✅ Add validator here
+  });
   }
+startDateBeforeEndDateValidator(formGroup: FormGroup): { [key: string]: boolean } | null {
+  const startDate = formGroup.get('startDate')?.value;
+  const endDate = formGroup.get('endDate')?.value;
+
+  if (startDate && endDate && new Date(startDate) >= new Date(endDate)) {
+    return { dateRangeInvalid: true };
+  }
+
+  return null;
+}
+
+
 
   get countryId() {
     return this.addMissionForm.get('countryId') as FormControl;

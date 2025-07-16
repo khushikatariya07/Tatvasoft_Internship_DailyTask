@@ -38,7 +38,7 @@ export class UpdateUserComponent implements OnInit, OnDestroy {
     private _activateRoute: ActivatedRoute,
     private _router: Router,
     private _toast: NgToastService
-  ) {}
+  ) {} 
   updateForm: FormGroup;
   formValid: boolean;
   userId: string; // Store the user ID
@@ -140,7 +140,7 @@ export class UpdateUserComponent implements OnInit, OnDestroy {
           emailAddress: [
             {
               value: this.updateData.emailAddress,
-              disabled: this.isupdateProfile,
+              disabled: false,
             },
             Validators.compose([Validators.required, Validators.email]),
           ],

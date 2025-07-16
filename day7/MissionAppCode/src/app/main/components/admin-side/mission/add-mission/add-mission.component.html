@@ -148,15 +148,20 @@
                     formControlName="endDate"
                     class="form-control"
                     [min]="addMissionForm.controls['startDate'].value"
-                    [disabled]="endDateDisabled"
+                    [disabled]="endDateDisabled
+                    "
                   />
                   <span
-                    class="text-danger"
+                    class="text-danger" 
                     *ngIf="endDate.invalid && (endDate.touched || formValid)"
                   >
                     Please Select End Date
                   </span>
+                  
                 </div>
+              
+
+                
               </div>
               <div class="row">
                 <div class="col-sm-6">
